@@ -1,0 +1,2 @@
+# Shovel-Requests
+Open-Source attempt of an javafx application for HTTP-Requests
