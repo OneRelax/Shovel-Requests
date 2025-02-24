@@ -12,7 +12,10 @@ public class Launcher extends Application {
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(Launcher.class.getResource("start-up-view.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 320, 240);
-        stage.setTitle("Hello!");
+        stage.setTitle("Shovel-Requests");
+        stage.setMaximized(true);
+        stage.setMinHeight(240);
+        stage.setMinWidth(320);
         stage.setScene(scene);
         stage.show();
     }
