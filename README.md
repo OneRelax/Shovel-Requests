@@ -1,5 +1,5 @@
 # Shovel-Requests
-Open-Source attempt of a javafx application for HTTP-Requests.
+Open-Source attempt of a JavaFX application for HTTP-Requests.
 This Project started because of frustration, hope it solves yours.
 
 **current Status:** in Development
