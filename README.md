@@ -9,7 +9,7 @@ You need:
 * JDK 21 or above
 * Apache Maven
 
-### any problem or suggestion?
+## any problem or suggestion?
 Create a [GitHub Issue](https://github.com/OneRelax/Shovel-Requests/issues)!
 
 //note-to-self: finish the README.md before creating the dev branch...
