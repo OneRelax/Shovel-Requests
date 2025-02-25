@@ -4,5 +4,6 @@ module github.onerelax.shovelrequests {
 
 
     opens github.onerelax.shovelrequests to javafx.fxml;
+    opens github.onerelax.shovelrequests.viewelements to javafx.fxml;
     exports github.onerelax.shovelrequests;
 }
