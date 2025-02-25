@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.VBox?>
 
 <?import javafx.scene.control.Button?>
 <?import github.onerelax.shovelrequests.viewelements.RequestTypeAndUrlField?>
-<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="github.onerelax.shovelrequests.StartUpController" styleClass="mainBox" stylesheets="@css/darkmode.css">
-    <Label fx:id="welcomeText"/>
-    <RequestTypeAndUrlField styleClass="tauField"/>
-    <Button text="Hello!" onAction="#onHelloButtonClick"/>
+<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="github.onerelax.shovelrequests.BasicRequestController" styleClass="mainBox" stylesheets="@css/darkmode.css">
+    <RequestTypeAndUrlField fx:id="tauField" styleClass="tauField"/>
+    <Button text="Send it!" onAction="#onSendClick"/>
 </VBox>
