@@ -7,13 +7,13 @@ import javafx.scene.layout.HBox;
 
 public class RequestTypeAndUrlField extends HBox {
     private final ChoiceBox<HttpRequestType> requestTypeChoiceBox = new ChoiceBox<>();
-    private final TextField urlTexfield = new TextField();
+    private final TextField urlTextfield = new TextField();
 
     public RequestTypeAndUrlField() {
         this.requestTypeChoiceBox.getItems().addAll(HttpRequestType.GET,HttpRequestType.POST,HttpRequestType.PUT,HttpRequestType.DELETE);
         this.requestTypeChoiceBox.setValue(HttpRequestType.GET);
-        this.urlTexfield.setPromptText("Enter URL here");
-        this.getChildren().addAll(this.requestTypeChoiceBox,this.urlTexfield);
+        this.urlTextfield.setPromptText("Enter URL here");
+        this.getChildren().addAll(this.requestTypeChoiceBox,this.urlTextfield);
     }
 
     public void setHttpRequestType(HttpRequestType type) {
@@ -25,10 +25,10 @@ public class RequestTypeAndUrlField extends HBox {
     }
 
     public void setUrl(String url){
-        this.urlTexfield.setText(url);
+        this.urlTextfield.setText(url);
     }
 
     public String getUrl(){
-        return this.urlTexfield.getText();
+        return this.urlTextfield.getText();
     }
 }
