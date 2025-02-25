@@ -1,4 +1,4 @@
-package de.onerelax.shovelrequests;
+package github.onerelax.shovelrequests;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;

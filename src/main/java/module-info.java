@@ -1,8 +1,8 @@
-module de.onerelax.shovelrequests {
+module github.onerelax.shovelrequests {
     requires javafx.controls;
     requires javafx.fxml;
 
 
-    opens de.onerelax.shovelrequests to javafx.fxml;
-    exports de.onerelax.shovelrequests;
+    opens github.onerelax.shovelrequests to javafx.fxml;
+    exports github.onerelax.shovelrequests;
 }

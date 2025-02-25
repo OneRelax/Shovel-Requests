@@ -4,7 +4,7 @@
 <?import javafx.scene.layout.VBox?>
 
 <?import javafx.scene.control.Button?>
-<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="de.onerelax.shovelrequests.StartUpController" styleClass="mainBox" stylesheets="@css/darkmode.css">
+<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="github.onerelax.shovelrequests.StartUpController" styleClass="mainBox" stylesheets="@css/darkmode.css">
     <Label fx:id="welcomeText"/>
     <Button text="Hello!" onAction="#onHelloButtonClick"/>
 </VBox>
